@@ -98,6 +98,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             "Rate the app",
                             style: TextStyle(
                               fontSize: 12.0,
+                              
                               color: Colors.white,
                             ),
                           ),
