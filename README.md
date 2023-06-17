@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/63206011/147784930-1642af4e-a643-4dac-
 ![M6](https://user-images.githubusercontent.com/63206011/147784988-389d2636-d6a1-4a15-a8ea-e260610a011e.png)
 
 
-# It is now available on Google Play  [Google Play Link](https://play.google.com/store/apps/details?id=com.fitness.test_gradle).
+# It is now available on Google Play  [Google Play Link](https://play.google.com/store/apps/details?id=com.MRcode.Fitness).
 
 ![download](https://user-images.githubusercontent.com/63206011/147785082-f00d827e-83b8-445c-8089-39d92d2175b1.png)
 
