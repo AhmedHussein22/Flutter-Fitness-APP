@@ -44,7 +44,7 @@ class Start extends StatefulWidget {
 class _StartState extends State<Start> {
   startTime() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    bool firstTime = prefs.getBool('first_time');
+    bool? firstTime = prefs.getBool('first_time');
 
     var _duration = new Duration(seconds: 3);
 

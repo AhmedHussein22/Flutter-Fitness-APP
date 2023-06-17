@@ -8,7 +8,7 @@ import 'package:test_gradle/shared/loading.dart';
 
 class Details extends StatefulWidget {
   final Exercises exercises;
-  Details({this.exercises});
+  Details({required this.exercises});
 
   @override
   _DetailsState createState() => _DetailsState();

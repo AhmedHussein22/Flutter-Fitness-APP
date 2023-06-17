@@ -15,7 +15,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final String url = "https://raw.githubusercontent.com/codeifitech/fitness-app/master/exercises.json";
-  Exercise exercisejson;
+  Exercise? exercisejson;
 
   @override
   void initState() {
@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
       body: Container(
           child: exercisejson != null
               ? ListView(
-                  children: exercisejson.exercises.map((e) {
+                  children: exercisejson!.exercises.map((e) {
                     return InkWell(
                       onTap: () {
                         Navigator.push(

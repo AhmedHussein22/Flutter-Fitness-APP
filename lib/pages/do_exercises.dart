@@ -12,16 +12,16 @@ import 'package:test_gradle/shared/loading.dart';
 class DoExercises extends StatefulWidget {
   final Exercises exercises;
   final int second;
-  DoExercises({this.exercises, this.second});
+  DoExercises({required this.exercises, required this.second});
   @override
   _DoExercisesState createState() => _DoExercisesState();
 }
 
 class _DoExercisesState extends State<DoExercises> {
   bool _isCompleted = false;
-  Exercise exercisejson;
+  
   int endScond = 0;
-  Timer time;
+  late Timer time;
   Audio audio = Audio.load('assets/audio/audio2.mp3');
   Audio endaudio = Audio.load('assets/audio/audio.mp3');
 
