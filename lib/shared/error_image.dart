@@ -23,20 +23,19 @@ class Error extends StatelessWidget {
         ),
       ),
       actions: <Widget>[
-        FlatButton(
-            onPressed: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => HomePage()));
-            },
-            child: Text(
-              "OK",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 21,
-              ),
-            ))
+        TextButton(
+          onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
+          },
+          child: Text(
+            "OK",
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 21,
+            ),
+          ),
+        )
       ],
     );
   }
 }
-  

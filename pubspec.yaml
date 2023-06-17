@@ -15,7 +15,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.0+1
+version: 1.0.0+3
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -23,18 +23,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  platform: ^3.1.0
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  introduction_screen: ^1.0.7
+  introduction_screen: ^3.0.0
   sleek_circular_slider: ^1.1.0
-  http: ^0.12.0+4
-  cached_network_image: ^2.1.0+1
-  shared_preferences: ^0.5.8
+  http: ^0.13.4
+  cached_network_image:
+  shared_preferences: ^2.1.1
   flutter_spinkit: ^4.1.2+1
-
+  audiofileplayer:
+  url_launcher:
 
 
 dev_dependencies:
@@ -59,16 +61,11 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/audio/audio.mp3
+    - assets/audio/
     - assets/fonts/Orbitron-VariableFont_wght.ttf
-    - assets/icons/yoga.png
-    - assets/images/muscle.png
-    - assets/images/running-573762_1920.jpg
-    - assets/images/screen1.jpg
-    - assets/images/screen2.png
-    - assets/images/screen3.png
-    - assets/images/screen4.png
-    - assets/images/woman-1822459_1920.jpg
+    - assets/icons/
+    - assets/images/
+    
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
