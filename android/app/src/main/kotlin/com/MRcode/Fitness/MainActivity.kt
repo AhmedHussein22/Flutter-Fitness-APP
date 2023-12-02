@@ -1,4 +1,4 @@
-package com.example.test_gradle
+package com.MRcode.Fitness
 
 import io.flutter.embedding.android.FlutterActivity
 
